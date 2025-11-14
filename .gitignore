@@ -37,5 +37,22 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore API keys and chat history
+config.h
+chat_history.txt
+
+# Ignore Qt/GUI generated files (if any)
+*.moc
+*.qrc
+*.ui.*
